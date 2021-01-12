@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "@tepez/typescript-typeroots-order",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "a-first": "npx tsc --project tsconfig.a-first.json",
+    "b-first": "tsc --project tsconfig.b-first.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomyam1/typescript-typeroots-order.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomyam1/typescript-typeroots-order/issues"
+  },
+  "homepage": "https://github.com/tomyam1/typescript-typeroots-order#readme",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
